@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="assets/styles/style.css"> 
+    <style>
+        @font-face {
+font-family: 'Karla-Regular';
+src: url('../fonts/Karla-Regular.ttf') format('truetype');
+}
+@font-face {
+font-family: 'Karla-Bold';
+src: url('../fonts/Karla-Bold.ttf') format('truetype');
+}
+
+@font-face {
+font-family: 'Lora-Regular';
+src: url('../fonts/Lora-Regular.ttf') format('truetype');
+}
+
+        @media screen and (min-width: 992px) and (max-width: 1200px){
+            .maine-info__title{
+                font-size: 46px;
+            }
+        }
+
+        @media screen and (max-width: 991px){
+            .maine-wrapper{
+                flex-direction: column;
+            }
+            .maine-info {
+    text-align: center;
+}
+.maine-info__title {
+    margin: auto;
+    font-size: calc(1rem + 2.8vw);
+}
+.maine-info__subtitle, .main-info__text {
+    font-size: calc(1rem + 0.5vw);
+  }
+  .maine-container {
+    margin-top: 1vh;
+    max-width: 100%;
+  }
+        }
+
+        .maine {
+padding:0 4vw;
+}
+
+.maine-wrapper{
+    margin:4vh auto;
+    display: flex;
+    align-items: center;
+}
+
+.maine-info__subtitle{
+    margin: 6% 0 3%;
+}
+
+.maine-info__title{
+    max-width: 80%;
+    margin-bottom: 3%;
+}
+
+.break::after{
+    content:"\A";
+    white-space: pre;
+}
+
+.maine-container{
+    max-width: 50%;
+    position: relative;
+}
+
+.maine-container__image{
+    width: 100%;
+    height: auto;
+}
+
+h2{
+font-family:'Lora-Regular', Times, sans-serif;
+font-size: 54px;
+line-height: 1.3em;
+color: #41444e;
+margin-block-start: 0.83em;
+margin-block-end: 0.83em;
+margin-inline-start: 15%;
+margin-inline-end: 0px;
+}
+
+.subtittle{
+font-family:'Karla-Bold', Times, sans-serif;
+font-size: 20px;
+color: #a8abb3;
+}
+
+.text-info {
+font-family: 'Karla-Regular', Times, sans-serif;
+font-size: 18px;
+line-height: 1.6em;
+color: #222;
+}
+    </style>
+</head>
+<body>
+    <main class="maine">
+        
+        <div class="maine-wrapper">
+            <div class="maine-conteiner">
+                <img class="maine-conteiner_image" src="assets/images/femida.jpg" alt="femida">
+            </div>
+            <div class="maine-info">
+                <div class="maine-info_subtitle subtitle">ПРИМЕНЯЕМ НАКОПЛЕННЫЙ ГОДАМИ ОПЫТ</div>
+                <h2>ПОЛНЫЙ 
+                    <br>
+                    СПЕКТР 
+                    <br>
+                    ЮРИДИЧЕСКИХ 
+                    <br>
+                    УСЛУГ</h2>
+                <p class="maine-info_text text-info">Предоставляем юридические услуги физическим лицам при возникновении проблем, связанных с вопросами жилищного, семейного, уголовного, наследственного, административное законодательства.<span class="break"></span>
+                    Наш профессионализм - это надежный партнер, который не только поможет защитить нарушенные права, но и предотвратить их.
+                </p>
+            </div>
+        </div>
+    </main>
+</body>
+</html>

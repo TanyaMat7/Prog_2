@@ -1,0 +1,32 @@
+div{
+    border: 1px solid red;
+}
+
+.conteiner{
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 95rem;
+    }
+
+    h2{
+        font-family: ;
+        font-size: 54px;
+        line-height: 1.3em;
+        color: #41444e;
+        margin-block-start: 0.83em;
+        margin-block-end: 0.83em;
+        margin-inline-start: 0px;
+        margin-inline-end: 0px;
+        }
+
+        .subtittle{
+            font-family: ;
+            font-size: 20px;
+            color: #a8abb3;
+            }
+
+            .img{
+                float: right;
+                width: 700px;
+                height: 700px;
+                }
